@@ -3,7 +3,34 @@ package hard;
 import java.util.Arrays;
 
 /**
+ * ... Avy nandeha nitsangatsangana tany Ankaratra ianao dia andeha hody eny
+ * Ambohitrimanjaka ka mila miandry bus eo 67ha. Loza fa voaendaka teo nefa
+ * ianao ka very tamin'izany ny phone nangalanao sary tany ampitsangatsanganana.
+ * Soa ihany fa tsy very ny smartwatch nanaovanao fa takon'ny tanan'ankajo. Ny
+ * Smartwatch-nao izay misy "altimètre" ni-"enregistrer" ny danga (altitude)
+ * an'ny tendro (sommets) sy lohasaha (vallées) rehetra nolalovanao tany
+ * Ankaratra. Ny hany mba fahatsiarovanao tany Ankaratra izany sisa dia ireo
+ * danga ireo, ary tianao ho avoaka avy amin'ireo ny sarin'ny tendrombohitra
+ * nolalovanao ka te hanoratra programa mamoaka izany sary zany ianao.
  *
+ * Toa izao ny mombamomba ilay programa:
+ *
+ * INPUT
+ * - dangaRehetra: tabilaona "integer" misy ny danga rehetra izay
+ * no-enregistern'ny smartwatch-nao.
+ * 
+ * OUTPUT
+ * - "string" izay raha soratana mifampitaingina dia manoma sarina tendrombohitra
+ * (jereo ny ohatra). 
+ * --> ➚ (hex code 0x279a) no ampiasaina ho an'ny fiakarana,
+ * --> ary ➘ (hex code 0x2798) ho an'ny fidinana raha miainga avany an-kavia
+ * makany ankavanana 
+ * --> [space] kosa no ampiasaina ho an'ny "espace vide" 
+ * --> Tsy tokony hisy hifandipatra ny sarin'ilay tendrombohitra fa mirindra tsara,
+ * izany hoe tsy tokony hisy ➚ sy ➘ mifampitaingina. 
+ * --> Raiso ho "altitude" 0 ny
+ * "base"-ny tendrombohitra.
+ * 
  * @author luco
  */
 public class TaskKAnkaratra {
